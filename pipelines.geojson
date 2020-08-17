@@ -1,0 +1,34 @@
+{
+  "type": "FeatureCollection",
+  "features": 
+  [
+    { 
+      "type": "Feature",
+      "properties": {
+        "name": "Nord Stream"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": 
+          [
+            [28.066389, 60.556667],
+            [13.639722, 54.14]
+          ]
+        }
+    }, 
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nord Stream 2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": 
+          [
+            [-100, 60.556667],
+            [20, 54.14]
+          ]
+        }
+    }
+  ]
+}
