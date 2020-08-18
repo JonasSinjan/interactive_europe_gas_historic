@@ -41,39 +41,40 @@ map.on('load', function() {
       map.addSource('route', {
         'type': 'geojson',
         'data': "pipelines.geojson"
-    // {
-    //   'type': 'FeatureCollection',
-    //   'features': [
-    //   { 
-    //     'type': 'Feature',
-    //     'properties': {
-    //       "name": "Nord Stream"
-    //     },
-    //     'geometry': {
-    //       'type': 'LineString',
-    //       'coordinates': 
-    //         [
-    //           [28.066389, 60.556667],
-    //           [13.639722, 54.14]
-    //         ]
-    //       }
-    //   }, 
-    //   {
-    //   'type': 'Feature',
-    //     'properties': {
-    //       "name": "Nord Stream 2"
-    //     },
-    //     'geometry': {
-    //       'type': 'LineString',
-    //       'coordinates': 
-    //         [
-    //           [-100, 60.556667],
-    //           [20, 54.14]
-    //         ]
-    //       }
-    //   }
-    //   ]
-    // }
+        // {
+        //   "type": "FeatureCollection",
+        //   "features": 
+        //   [
+        //     { 
+        //       "type": "Feature",
+        //       "properties": {
+        //         "name": "Nord Stream"
+        //       },
+        //       "geometry": {
+        //         "type": "LineString",
+        //         "coordinates": 
+        //           [
+        //             [28.066389, 60.556667],
+        //             [13.639722, 54.14]
+        //           ]
+        //         }
+        //     }, 
+        //     {
+        //       "type": "Feature",
+        //       "properties": {
+        //         "name": "Adriatic LNG"
+        //       },
+        //       "geometry": {
+        //         "type": "LineString",
+        //         "coordinates": 
+        //           [
+        //             [12.7486, 45.0593],
+        //             [12.363611, 45.048611]
+        //           ]
+        //         }
+        //     }
+        //   ]
+        // }
     
     });
     map.addLayer({
