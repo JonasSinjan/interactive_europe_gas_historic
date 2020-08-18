@@ -19,14 +19,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nord Stream 2"
+        "name": "Adriatic LNG"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": 
           [
-            [-100, 60.556667],
-            [20, 54.14]
+            [12.7486, 45.0593],
+            [12.363611, 45.048611]
           ]
         }
     }
